@@ -49,7 +49,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TofsenseMFrame0Pixel.msg"
   DEPENDENCIES builtin_interfaces std_msgs
 )
-ament_export_dependencies(rosidl_default_runtime)
+ament_export_dependencies(rosidl_default_runtime std_msgs)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
